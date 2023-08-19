@@ -1,0 +1,43 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+body{
+    background-color: hsl(212, 45%, 89%);
+    display: flex;
+    justify-content: center;
+}
+    
+.container{
+   margin-top: 15rem;
+}
+.container .Qr-Code{
+    background-color:white;
+    width: 190px;
+    border-radius: 10px;
+}
+.container .Qr-Code img{
+    height: 150px;
+    width: 150px;
+    margin-top: 10px;
+    margin-left: 18px;
+    border-radius: 10px;
+}
+.content{
+    padding: 10px;
+   
+}
+.content .heading{
+    color: hsl(218, 44%, 22%);
+    font-weight: 400;
+}
+.content .details{
+    color: hsl(220, 15%, 55%);
+}
+@media screen and (max-width: 375px){
+    .container{
+    margin-left: 10px;
+    }
+}
