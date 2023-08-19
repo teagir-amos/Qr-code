@@ -38,6 +38,8 @@ body{
 }
 @media screen and (max-width: 375px){
     .container{
-    margin-left: 10px;
+    margin-left: 10px ;
     }
+    .container .Qr-Code{
+        margin-bottom: 15rem;
 }
